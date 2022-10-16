@@ -4,9 +4,10 @@
     "React": "readonly"
   },
   "rules": {
-    // 0 to turn off
-    // 1 warning
-    // 2 for error
-    "no-unused-vars": [1, { "args": "after-used", "argsIgnoredPattern": "^_" }]
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }]
   }
 }
+
+// 0 to turn off
+// 1 warning
+// 2 for error
